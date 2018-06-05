@@ -20,6 +20,15 @@
 (global-set-key (kbd "C-S-o") 'counsel-rhythmbox)
 (define-key minibuffer-local-map (kbd "C-r") 'counsel-minibuffer-history)
 
+;;自动缩进
+(global-set-key (kbd "C-M-\\") 'indent-region-or-buffer)
+
+;;自动补全
+(global-set-key (kbd "s-/") 'hippie-expand)
+
+;;dired 模式
+;;(with-eval-after-load 'dired ;; 延迟加载
+;;    (define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file))
 
 ;;末尾
 (provide 'lvway-init-keybindings)
