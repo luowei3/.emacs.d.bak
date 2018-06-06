@@ -26,6 +26,9 @@
 ;;自动补全
 (global-set-key (kbd "s-/") 'hippie-expand)
 
+;;occur 相关
+(global-set-key (kbd "M-s o") 'occur-dwim)
+(global-set-key (kbd "M-s i") 'counsel-imenu)
 ;;dired 模式
 ;;(with-eval-after-load 'dired ;; 延迟加载
 ;;    (define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file))

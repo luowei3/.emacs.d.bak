@@ -1,3 +1,0 @@
-(
- (:id "sha1:85b31c268009209a8d3c5387033b219264f7e62b" :fingerprint "sha1:b9:03:81:62:3f:06:4e:07:10:86:cd:eb:b7:25:70:05:21:76:8c:93" :host "melpa.org:443" :conditions (:unknown-ca :invalid))
-)
