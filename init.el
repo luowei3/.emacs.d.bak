@@ -9,8 +9,8 @@
 (add-to-list 'load-path "~/.emacs.d/my_lisp")
 (require 'lvway-init-packages)
 (require 'lvway-init-ui)
-(require 'lvway-init-keybindings)
 (require 'lvway-init-better-defaults)
+(require 'lvway-init-keybindings)  ;;放最后
 
 
 
@@ -47,7 +47,7 @@
  '(company-idle-delay 0.1)
  '(package-selected-packages
    (quote
-    (expand-region expand-line org monokai-theme hungry-delete exec-path-from-shell dash counsel company))))
+    (iedit helm-ag expand-region expand-line org monokai-theme hungry-delete exec-path-from-shell dash counsel company))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

@@ -106,5 +106,11 @@
 ;;popwin 相关
 (require 'popwin)
 (popwin-mode 1)
+;;yasnippet
+(yas-global-mode)
+;;(require yasnippet)
+(yas-reload-all)
+(add-hook 'prog-mode-hook #'yas-minor-mode)
+
 ;;末尾
 (provide 'lvway-init-packages)
