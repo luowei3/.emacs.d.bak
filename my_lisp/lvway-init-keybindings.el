@@ -38,5 +38,12 @@
 
 ;;iedit
 (global-set-key (kbd "M-s e") 'iedit-mode)
+;;向后删除单词
+(global-set-key (kbd "C-w") 'backward-kill-word)
+
+;;auto-yasnippet
+(global-set-key (kbd "H-w") #'aya-create)
+(global-set-key (kbd "H-y") #'aya-expand)
+
 ;;末尾
 (provide 'lvway-init-keybindings)

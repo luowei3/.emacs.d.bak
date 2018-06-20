@@ -107,10 +107,18 @@
 (require 'popwin)
 (popwin-mode 1)
 ;;yasnippet
+(require 'auto-yasnippet)
 (yas-global-mode)
 ;;(require yasnippet)
 (yas-reload-all)
 (add-hook 'prog-mode-hook #'yas-minor-mode)
+;;
+(window-numbering-mode 1)
+;;
+(require 'powerline)
+(powerline-default-theme)
+
+
 
 ;;末尾
 (provide 'lvway-init-packages)

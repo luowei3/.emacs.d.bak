@@ -47,7 +47,7 @@
  '(company-idle-delay 0.1)
  '(package-selected-packages
    (quote
-    (iedit helm-ag expand-region expand-line org monokai-theme hungry-delete exec-path-from-shell dash counsel company))))
+    (yasnippet-snippets powerline window-numbering auto-yasnippet iedit helm-ag expand-region expand-line org monokai-theme hungry-delete exec-path-from-shell dash counsel company))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
